@@ -7,3 +7,55 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main-container {
+  background: linear-gradient(rgb(39, 71, 56), rgb(28, 52, 41));
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-img {
+  width: 40rem;
+  height: auto;
+  margin-top: 7rem;
+}
+
+.title {
+  margin-top: 4rem;
+}
+
+.input-box {
+  border: none;
+  width: 18rem;
+  height: 2.4rem;
+  background-color: #294236;
+  color: #d7fbe9;
+  padding-left: 10px;
+}
+
+.input-box::placeholder {
+  color: #d7fbe9;
+  /* padding-left: 10px; */
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+.add-task-container {
+  background-color: rgb(85, 154, 122);
+  /* padding: 2rem 8rem; */
+  width: 30rem;
+  height: 4rem;
+  border-radius: 10px;
+}
+
+.add-task-btn {
+  background-color: #294236;
+  color: #d7fbe9;
+}
+
+.add-task-btn:hover {
+  background-color: #355445;
+}
