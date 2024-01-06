@@ -44,7 +44,7 @@ html {
 }
 
 .add-task-container {
-  background-color: rgb(85, 154, 122);
+  background-color: #559a7a;
   /* padding: 2rem 8rem; */
   width: 30rem;
   height: 4rem;
@@ -58,4 +58,80 @@ html {
 
 .add-task-btn:hover {
   background-color: #355445;
+}
+
+#incomplete-task,
+#completed-task {
+  background-color: #559a7a;
+  padding: 10px;
+  color: #294236;
+}
+
+.edit-btn,
+.check-btn,
+.close-btn,
+.task-item {
+  color: #d7fbe9;
+}
+
+.task-item {
+  background-color: #294236;
+  font-size: 1rem;
+  padding: 2px 10px 5px 10px;
+  width: 100%;
+  border-radius: 5px;
+  vertical-align: center;
+  border: none;
+}
+
+.task-item:focus {
+  outline: none;
+}
+.task-item::placeholder {
+  color: #d7fbe9;
+}
+
+.edit-btn,
+.check-btn,
+.close-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 100px;
+}
+
+.task-control {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.edit-btn {
+  background-color: #f4c2c9;
+}
+
+.edit-btn:hover {
+  background-color: #d0a5ab;
+  color: #d7fbe9;
+}
+
+.check-btn {
+  background-color: #7676e7;
+}
+.check-btn:hover {
+  background-color: #6767ca;
+  color: #d7fbe9;
+}
+.close-btn {
+  background-color: #ed3a4e;
+}
+
+.close-btn:hover {
+  background-color: #d33447;
+  color: #d7fbe9;
+}
+
+.shadow {
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5),
+    inset 0.5px 1px 1px rgba(255, 255, 255, 0.5) !important;
 }
